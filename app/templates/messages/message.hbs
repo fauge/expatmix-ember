@@ -1,0 +1,7 @@
+message
+<p>{{model.date}}</p>
+<p>{{model.subject}}</p>
+<p>{{model.body}}</p>
+
+<button {{action 'delete'}}>Delete</button>
+{{#link-to 'messages'}}Back to list{{/link-to}}

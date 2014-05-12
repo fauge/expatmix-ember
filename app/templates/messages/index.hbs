@@ -1,0 +1,8 @@
+messages
+<ul>
+  {{#each mail in controller}}
+    <li>{{mail.date}} - {{#link-to 'messages.message' mail}}{{mail.subject}}{{/link-to}} - {{mail.content}}</li>
+  {{/each}}
+
+
+</ul>
